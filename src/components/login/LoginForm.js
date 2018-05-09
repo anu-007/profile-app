@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
+import { userLoginRequest } from '../../actions/loginActions'; 
 
 class LoginForm extends Component {
     constructor(props) {
